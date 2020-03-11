@@ -36,20 +36,14 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `courage - @lekoarts/gatsby-theme-minimal-blog`,
+        name: `courage: yo question`,
         short_name: `courage`,
         description: `Ed's Blog`,
-        start_url: `/`,
+        start_url: `https://iamedson.com/blog`,
         background_color: `#fff`,
         theme_color: `#000000`,
         display: `standalone`,
